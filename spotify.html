@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>spotify</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body class="baloo">
+    <div class="grid-container">
+        <div class="main" style="background-color: #121212;">
+            <div class="Cabecera">
+                <div class="Usuario d-flex flex-row-reverse">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle rounded-pill" type="button" id="user" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="background-color: #000000;">
+                            <img class="user-img rounded-circle" src="src/img/user.jpg" alt="user">
+                            <span class="nombre-usuario">user.spotify123</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="volver-adelante">
+                    <div style="padding-left: 30px; padding-top: 15px ;">
+                        <img src="src/anterior.svg">
+                        <img style="padding-left: 10px;" src="src/siguiente.svg">
+                        <!-- <input id="buscador" class="rounded-pill w-50"
+                            placeholder="Busca artistas, canciones o podcasts"></input> -->
+                    </div>
+                </div>
+            </div>
+            <div style="padding-left: 32px; padding-right: 32px;" class="Contenido">
+                <h2 class="titulo-contenido baloo">Escuchados recientemente</h2>
+                <div class="cartas-horizontales">
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-bottom: 15px;">
+                    <h2 class="titulo-contenido">Recomendados para vos</h2>
+                    <span class="subtitulo-contenido">Cuanto más escuches, mejores serán las recomendaciones.</span>
+                </div>
+                <div class="cartas-horizontales">
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-bottom: 15px;">
+                    <h2 class="titulo-contenido">Lo nuevo!</h2>
+                    <span class="subtitulo-contenido">Esto es lo nuevo en spotify.</span>
+                </div>
+                <div class="cartas-horizontales">
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card overflow-hidden rounded"
+                        style="width: 165px;height: 239px; background-color: #282828;">
+                        <div>
+                            <img style="padding-top: 20px ; padding-left: 20px; padding-right: 20px;"
+                                class="card-img-top" src="https://picsum.photos/125/125" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title titulo-carta negrita">Jazz Classic</h5>
+                                <p class="card-text carta-texto">The greatest tunes in the jazz history. Cover: etc etc
+                                    etc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="columna" style="background-color: black;">
+            <div class="custom-playlists overflow-auto" style="padding-left: 5%;">
+                <div>Playlist 1</div>
+                <div>Playlist 2</div>
+                <div>Playlist 3</div>
+                <div>Playlist 4</div>
+                <div>Playlist 5</div>
+                <div>Playlist 6</div>
+                <div>Playlist 7</div>
+                <div>Playlist 8</div>
+                <div>Playlist 9</div>
+                <div>Playlist 10</div>
+                <div>Playlist 11</div>
+                <div>Playlist 12</div>
+                <div>Playlist 13</div>
+                <div>Playlist 14</div>
+                <div>Playlist 15</div>
+                <div>Playlist 16</div>
+            </div>
+            <div class="playlist">
+                <div style="padding-left: 5%;">PLAYLIST</div>
+                <div style="padding-left: 5%; padding-top: 5%;">
+                    <img style="vertical-align: middle" src="src/cuadrado-agregar.svg" />
+                    <span class="negrita" style="padding-left: 5%;">Crear playlist</span>
+                </div>
+                <div class="test" style="padding-left: 5%; padding-top: 5%;">
+                    <img style="vertical-align: middle" src="src/heart-solid.svg">
+                    <span style="padding-left: 5%;" class="negrita">Canciones que te gustan</span>
+                </div>
+                <hr>
+            </div>
+
+            <div class="menu negrita" style="padding-left: 10px">
+                <div>
+                    <img src="src/home-solid.svg">
+                    <a style="padding-left: 5%; padding-top: 10px;">Inicio</a>
+                </div>
+                <div style="padding-top: 15px;">
+                    <img style="padding-left: 5%; vertical-align: middle" src="src/search-solid.svg">
+                    <a style="padding-left: 5%; padding-top: 10px;">Buscar</a>
+                </div>
+                <div style="padding-top: 15px;">
+                    <img class="align-middle" style="padding-left: 5%;" src="src/record-vinyl-solid.svg">
+                    <span style="padding-left: 5%;">Tu Biblioteca</span>
+                </div>
+            </div>
+            <div class="logo-spotify" style="background-color: black;">
+                <img id="img-spotify" src="src/Spotify_Logo_CMYK_White.png">
+            </div>
+        </div>
+        <div class="Reproductor" style="background-color: #282828;">
+            <div class="reproductor-interactivo">
+                <div class="manejo-reproductor" id="manejo-reproductor">
+                    <img src="src/img/reproductor/Shuffle.svg" alt="mezclar">
+                    <img src="src/img/reproductor/atras.svg" alt="atras">
+                    <img class="boton-play" src="src/img/reproductor/play.svg" alt="play">
+                    <img src="src/img/reproductor/prox.svg" alt="proximo">
+                    <img src="src/img/reproductor/repetir.svg" alt="repetir">
+                </div>
+                <input type="range" min="1" max="100" value="50" class="slider" style="width: 100%;">
+
+
+
+
+            </div>
+
+
+            <div class="dispositivos-volumen">
+                <img class="iconos-volumen" src="src/lista-de-reproduccion.svg" alt="lista de reproduccion">
+                <img class="iconos-volumen" src="src/dispositivo.svg" alt="dispositivo">
+                <img class="iconos-volumen" src="src/volumen.svg" alt="volumen">
+                <input type="range" min="1" max="100" value="50" class="slider">
+            </div>
+
+            <div class="Album-cancion">
+                <div>
+                    <img src="https://picsum.photos/70/70" alt="album">
+                </div>
+                <div class="info-album">
+                    <div class="cancion">Canción</div>
+                    <div class="banda">banda</div>
+                </div>
+                <div class="iconos-reproductor">
+                    <img src="src/corazon.svg" alt="Me Gusta">
+                </div>
+                <div class="iconos-reproductor">
+                    <img src="src/agrandar-album.svg" alt="agrandar album">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

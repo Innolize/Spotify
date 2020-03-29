@@ -1,0 +1,243 @@
+html, body, .grid-container { height: 100%; margin: 0; }
+
+
+.grid-container { 
+ content:attr(class);
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 85% 15%;
+  grid-template-areas: "columna main" "Reproductor Reproductor";
+}
+
+.main {
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: 12% 1fr;
+  grid-template-areas: "Cabecera" "Contenido";
+  grid-area: main;
+}
+
+.Cabecera {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "volver-adelante Usuario";
+  grid-area: Cabecera;
+}
+
+.Usuario { grid-area: Usuario; }
+
+.volver-adelante { grid-area: volver-adelante; }
+
+.Contenido {
+   grid-area: Contenido; 
+   overflow-y:scroll;
+  }
+
+.columna {
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: 12% 25% 25% 37.5%;
+  grid-template-areas: "logo-spotify" "menu" "playlist" "custom-playlists";
+  grid-area: columna;
+}
+
+.custom-playlists { grid-area: custom-playlists; }
+
+.playlist { grid-area: playlist; }
+
+.menu { grid-area: menu; }
+
+.logo-spotify {
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: 1fr;
+  grid-template-areas: ".";
+  grid-area: logo-spotify;
+}
+
+.Reproductor {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 1fr;
+  grid-template-areas: "Album-cancion reproductor-interactivo dispositivos-volumen";
+  grid-area: Reproductor;
+}
+
+.reproductor-interactivo { 
+  grid-area: reproductor-interactivo; 
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.dispositivos-volumen { 
+  grid-area: dispositivos-volumen;
+  display: flex;
+  align-items:center;
+  margin-right: 0px;
+  margin-left: auto;
+ }
+
+.Album-cancion { 
+  grid-area: Album-cancion;
+  display:flex;
+  text-align: left;
+  margin-top:auto;
+  margin-bottom:auto;
+  margin-left:15px
+  
+ }
+
+#img-spotify{
+    width: 70%;
+    height: 70%;
+    padding-left: 25px;
+    padding-top:20px;
+
+}
+
+.baloo{
+    font-family:'Baloo Da 2', cursive; ;
+    color: gray;
+}
+
+.centrado{
+    vertical-align: middle;
+    
+}
+
+body{
+    background-color:black
+}
+
+.menu{
+    font-size: 18px;
+}
+
+.playlist{
+    font-size: 18px;
+}
+
+.columna{
+padding-left: 10px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+hr{
+  border-top: 0.5px solid gray;
+  width: 85%
+}
+
+.custom-playlists{
+  font-size: 18px;
+}
+
+.imagen-user{
+  width:50px; height:50px
+}
+
+.titulo-carta{
+  font-size: 14px;
+}
+.carta-texto{
+  font-size:12px;
+  text-overflow: ellipsis;
+}
+
+.cartas-horizontales{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.titulo-contenido{
+color:white;
+}
+.subtitulo-contenido{
+color:gray;
+}
+
+.info-album{
+  margin-top:auto;
+  margin-bottom:auto;
+  padding-left: 18px;
+}
+
+
+.cancion{
+  font-size:18px;
+  color:white;
+}
+
+.banda{
+  font-size:16px
+}
+
+.iconos-reproductor{
+  padding-left: 18px;
+  display:flex
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 5px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%; 
+  background: gray;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: green;
+  cursor: pointer;
+}
+
+.iconos-volumen{
+  padding-right: 15px;
+}
+
+.manejo-reproductor{
+  display:flex;
+  height:20px;
+  width:20px;
+}
+
+.user-img{
+  width: 30px;
+  height: 30px;
+}
+.nombre-usuario{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+#user{
+  margin-right: 30px;
+  margin-top: 20px;
+}
