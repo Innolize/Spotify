@@ -43,14 +43,10 @@ html, body, .grid-container { height: 100%; margin: 0; }
 .columna {
   display: grid;
   grid-template-columns: ;
-  grid-template-rows: 12% 25% 25% 37.5%;
-  grid-template-areas: "logo-spotify" "menu" "playlist" "custom-playlists";
+  grid-template-rows: 12% 68%;
+  grid-template-areas: "logo-spotify" "menu";
   grid-area: columna;
 }
-
-.custom-playlists { grid-area: custom-playlists; }
-
-.playlist { grid-area: playlist; }
 
 .menu { grid-area: menu; }
 
@@ -116,14 +112,6 @@ body{
     background-color:black
 }
 
-.menu{
-    font-size: 18px;
-}
-
-.playlist{
-    font-size: 18px;
-}
-
 .columna{
 padding-left: 10px;
 }
@@ -133,12 +121,15 @@ padding-left: 10px;
 }
 
 hr{
-  border-top: 0.5px solid gray;
-  width: 85%
+  background: gray;
+  /* border-top: 0.5px solid gray; */
+  width: 80%
 }
 
 .custom-playlists{
-  font-size: 18px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .imagen-user{
@@ -240,4 +231,30 @@ color:gray;
 #user{
   margin-right: 30px;
   margin-top: 20px;
+}
+
+.menu-interactivo{
+  font-weight: 600 ;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 15px;
+}
+
+.menu-interactivo:hover{
+  color:white;
+}
+
+.playlist{
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  
+}
+
+.contenido-playlist{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 15px;
 }
